@@ -12,7 +12,7 @@ form.addEventListener("submit", async (e) => {
   if (!location) return;
 
   const weatherData = await fetchWeather(location);
-  console.log("User-submited weather data:", weatherData);
+  displayWeather(weatherData);
 
   input.value = "";
 });
