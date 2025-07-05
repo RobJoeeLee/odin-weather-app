@@ -14,7 +14,6 @@ async function fetchWeather(location) {
 
     const data = await response.json();
     const simplifiedWeatherData = processWeatherData(data);
-    console.log(simplifiedWeatherData);
     return simplifiedWeatherData;
   } catch (error) {
     console.error("Error fetching weather data", error);
