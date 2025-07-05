@@ -1,5 +1,6 @@
 import "./style.css";
 import { fetchWeather } from "./api";
+import { displayWeather } from "./dom";
 
 const form = document.getElementById("location-form");
 const input = document.getElementById("location-input");
