@@ -1,3 +1,4 @@
 import "./style.css";
+import { fetchWeather } from "./api";
 
-console.log("App is running");
+fetchWeather("New York");
